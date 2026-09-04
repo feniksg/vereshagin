@@ -39,15 +39,6 @@ The project provides access to paintings, biographical materials and textual con
 - Pillow
 - SQLite for local development
 
-## Project Structure
-
-.
-├── code/
-│   ├── backend/      # Django REST API
-│   └── frontend/     # Nuxt application
-├── req.txt
-└── README.md
-
 ## Backend Setup
 
 Create and activate a virtual environment:
