@@ -41,10 +41,54 @@ The project provides access to paintings, biographical materials and textual con
 
 ## Project Structure
 
-```text
 .
 ├── code/
 │   ├── backend/      # Django REST API
 │   └── frontend/     # Nuxt application
 ├── req.txt
 └── README.md
+
+## Backend Setup
+
+Create and activate a virtual environment:
+
+python -m venv venv
+
+Linux / macOS:
+
+source venv/bin/activate
+
+Windows:
+
+venv\Scripts\activate
+
+Install dependencies:
+
+pip install -r req.txt
+
+Run migrations:
+
+cd code/backend
+python manage.py migrate
+
+Start the backend:
+
+python manage.py runserver
+
+## Frontend Setup
+
+cd code/frontend
+npm install
+npm run dev
+
+## Production
+
+The project was prepared for deployment on an Ubuntu server using Docker.
+
+The source code and deployment instructions were delivered to the customer after development.
+
+## About
+
+Commercial project developed as a full-stack application for a museum information system.
+
+The repository is published as part of my development portfolio.
