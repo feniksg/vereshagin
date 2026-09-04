@@ -1,0 +1,19 @@
+BACK:
+python -m venv venv
+.\venv\Scripts\activate
+pip install -r .\req.txt
+cd .\code\backend\
+python .\manage.py runserver
+
+
+FRONT:
+cd .\code\frontend\
+npm i
+npm run dev
+
+ССЫЛКИ:
+http://localhost:3000/ - ФРОНТ
+http://127.0.0.1:8000/api/admin/ - БЭК
+
+admin - Login
+1234 - Password

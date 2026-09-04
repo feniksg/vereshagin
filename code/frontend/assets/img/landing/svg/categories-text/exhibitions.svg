@@ -1,0 +1,10 @@
+<svg width="88" height="76" viewBox="0 0 88 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.43359 53.1279C5.08279 51.5585 13.4131 47.9914 15.6655 44.798M15.6655 44.798C18.2199 41.1764 18.5848 35.0195 15.6655 35.0195C12.7461 35.0195 13.111 41.5385 15.6655 44.798ZM15.6655 44.798C18.8281 47.5747 28.8756 53.1279 43.7643 53.1279C58.653 53.1279 69.4303 47.5747 72.9579 44.798M72.9579 44.798C74.9041 41.5385 76.6071 35.0195 72.9579 35.0195C69.3087 35.0195 71.0116 41.5385 72.9579 44.798ZM72.9579 44.798C75.9989 47.5747 80.9861 51.3171 86.4599 53.1279" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M15.8457 45.1597V74.8574" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M72.7695 45.1597V74.8574" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M2.1543 74.8574H84.2983" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+<mask id="path-5-inside-1_1190_1831" fill="white">
+<rect x="70.3301" y="0.571533" width="30.2215" height="50.1068" rx="1" transform="rotate(90 70.3301 0.571533)"/>
+</mask>
+<rect x="70.3301" y="0.571533" width="30.2215" height="50.1068" rx="1" transform="rotate(90 70.3301 0.571533)" stroke="black" stroke-width="3" mask="url(#path-5-inside-1_1190_1831)"/>
+</svg>

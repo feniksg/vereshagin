@@ -1,0 +1,23 @@
+{% load i18n %}
+
+{% if app_list %}
+  <div class="dashboard-tile-container">
+    {% for app in app_list %}
+      {% for model in app.models %}
+        {% if model.name != "Группы" and model.name != "Пользователи" %}
+          {% with model_name=model.object_name|lower %}
+            {% if model.admin_url %}
+              <a href="{{ model.admin_url }}" class="dashboard-tile-link">
+                <div class="dashboard-tile model-{{ model_name }}">
+                  <h3>{{ model.name }}</h3>
+                </div>
+              </a>
+            {% endif %}
+          {% endwith %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </div>
+{% else %}
+  <p>{% translate 'You don’t have permission to view or edit anything.' %}</p>
+{% endif %}

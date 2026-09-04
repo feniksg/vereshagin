@@ -1,0 +1,33 @@
+{% extends "admin/base.html" %}
+{% load static %}
+{% block title %}{% if subtitle %}{{ subtitle }} | {% endif %}{{ title }} | {{ site_title|default:_('Django site admin')
+}}{% endblock %}
+
+{% block branding %}
+<div class="custom-header">
+  <a href="/"><img src="{% static 'img/logo.png' %}" alt="Логотип" height="40"></a>
+  <a href="/api/admin/"><h1 class="site-name">Панель администратора</h1></a>
+</div>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
+
+
+
+
+
+{% block usertools %}
+<div class="custom-usertools">
+  <a class="custom-back" href="/">Вернуться в режим пользователя</a>
+  
+  
+</div>
+
+<!-- <form method="post" action="{% url 'admin:logout' %}" style="display:inline;">
+        {% csrf_token %}
+        <button type="submit" class="logout-btn" style="background: none; border: none; color: #fff; cursor: pointer; margin-left: 10px;">
+          Выйти
+        </button>
+      </form> -->
+{% endblock %}
+
